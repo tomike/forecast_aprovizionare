@@ -1,7 +1,21 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(chmod:*)",
+      "Bash(bash create_github_issues.sh:*)",
+      "Bash(gh label create:*)",
+      "Bash(gh issue list:*)",
+      "Bash(gh issue create:*)",
+      "Bash(gh repo view:*)",
+      "Bash(python3:*)",
+      "Bash(find:*)",
+      "Bash(for file in FINAL_STATUS.md SETUP_COMPLETE.md ISSUES_SUMMARY.md BACKLOG.md)",
+      "Bash(do mv \"$file\" docs/)",
+      "Bash(echo:*)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []
